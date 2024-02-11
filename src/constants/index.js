@@ -35,7 +35,7 @@ import {
 export const navLinks = [
   {
     id: 'about',
-    title: 'About',
+    title: 'Bio',
   },
   {
     id: 'elevator',
@@ -166,11 +166,31 @@ const projects = [
       },
     ],
     image: doctors,
+    repo: 'https://docs.google.com/document/d/1FGRyuLItqYXzGPdJ-zNudPXoCf2SXk4Qy3Xa6sQWiso/edit?usp=sharing',
+    demo: 'https://drive.google.com/file/d/175n8IOdACpujp8GFiEcNHIuOXYqq6q2n/view?usp=sharing',
+  },
+  {
+    id: 'project-2',
+    name: 'Telemedicine App/Platform',
+    description:
+      'This is a demo concert wireframe of this project.',
+    tags: [
+      {
+        name: 'Figma',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'blue-text-gradient',
+
+      },
+    ],
+    image: doctors,
     repo: 'https://docs.google.com/document/d/1Sn1rCFKH4cA622s4sSKLb5tyBXQT85HXFQp5jmCboWk/edit?usp=sharing',
     demo: 'https://docs.google.com/presentation/d/1eAY1Xel6nzIEClbvsz8mI-yCSTd-HNMulvH_ej_I7GY/edit?usp=sharing',
   },
   {
-    id: 'project-2',
+    id: 'project-3',
     name: 'Telemedicine App/Platform',
     description:
       'This is a demo concert wireframe of this project.',
